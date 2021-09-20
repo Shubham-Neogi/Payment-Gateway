@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    padding-top: 20px;
+    
+}
+.navbar ul li{
+    display: inline;
+    font-size: 20px;
+    padding:10px ;
+}
+.navbar ul li:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.banner{
+    margin: 0;
+    background:url(donation_bg.jpg) ;
+    height:100vh;
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+}
+.main-header{
+    margin-top: 12%;
+}
+.bttn{
+    margin-left:45%;
+    padding:10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    color:black;
+}
+.card-img-top{
+    height:200px;
+    width:100%;
+}
+.card{
+    margin-top: 20px;
+}
+.card-text{
+    text-align: justify;
+}
+form{
+    margin-top: 20px;
+    padding:20px;
+    background:linear-gradient(45deg,white ,rgb(84, 206, 228));
+}
+.contact h1{
+    
+    padding-top: 20px;
+
+}
+.contact{
+  
+   
+    padding-bottom: 20px;
+}
+.social{
+    background:linear-gradient(45deg,white ,grey);
+}
+.social ul{
+    list-style-type: none;
+    margin-top:20px;
+}
+.social ul li{
+    font-size: 30px;
+    display: inline;
+    padding-left: 10px;
+}
